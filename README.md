@@ -2,4 +2,6 @@
 
 # Dungeon-Crawler
 
+</div>
+
 # Uma aventura em ASCII!
