@@ -1,6 +1,6 @@
 <div align="center">
   
-# Dungeon-Crawler
+# Dungeon Crawler
 
 Um jogo curto e **difícil** desenvolvido em c!
 
