@@ -10,7 +10,7 @@ void vitoria(){
     system("cls");
     system("color f0");
     printf("\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/");
-    printf("\n\n\t\t Após muitos desafios e obstáculos, a Gousma aventureira finalmente chega à sala\n\t\t  da poção mágica. Mas, quando em que ela pega o frasco milagroso, um terremoto\n\t\t     sacude a masmorra inteira. Correndo para não ser esmagada, ela consegue\n\t\t\t\t\tescapar e volta para o seu reino.\n\n\t\t  Com a cura em mão, a raça das Gousmas lentamente se recupera da doença mortal\n\t\t e vive para contar a história da Gousma aventureira para as futuras gerações...");
+    printf("\n\n\t\t ApÃ³s muitos desafios e obstÃ¡culos, a Gousma aventureira finalmente chega Ã  sala\n\t\t  da poÃ§Ã£o mÃ¡gica. Mas, quando em que ela pega o frasco milagroso, um terremoto\n\t\t     sacude a masmorra inteira. Correndo para nÃ£o ser esmagada, ela consegue\n\t\t\t\t\tescapar e volta para o seu reino.\n\n\t\t  Com a cura em mÃ£o, a raÃ§a das Gousmas lentamente se recupera da doenÃ§a mortal\n\t\t e vive para contar a histÃ³ria da Gousma aventureira para as futuras geraÃ§Ãµes...");
     printf("\n\n\t\t\t\t         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\t\t\t\t       @@@  @@@@@@@@@@@@@@@@@@@@@@@@  @@@\n\t\t\t\t       @@    @@@@@@@@@@@@@@@@@@@@@@    @@\n\t\t\t\t       @@    @@@@@@@@@@@@@@@@@@@@@@    @@\n\t\t\t\t       @@@    @@@@@@@@@@@@@@@@@@@@    @@@\n\t\t\t\t         @@@@ @@@@@@@@@@@@@@@@@@@@ @@@@\n\t\t\t\t           @@@@@@@@@@@@@@@@@@@@@@@@@@\n\t\t\t\t              @@@@@@@@@@@@@@@@@@@@\n\t\t\t\t                @@@@@@@@@@@@@@@@\n\t\t\t\t                  @@@@@@@@@@@@@\n\t\t\t\t                   @@@@@@@@@@\n\t\t\t\t                     @@@@@@\n\t\t\t\t                       @@\n\t\t\t\t                       @@\n\t\t\t\t                       @@\n\t\t\t\t                      @@@@\n\t\t\t\t                      @@@@\n\t\t\t\t                    @@@@@@@@\n\t\t\t\t                 @@@@@@@@@@@@@@\n\t\t\t\t               @@@@@@@@@@@@@@@@@@\n\t\t\t\t               @@@@@@@@@@@@@@@@@@");
     printf("\n\n\t\t\t\t\t -= Pressione qualquer tecla =-");
     printf("\n\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/\n");
@@ -23,7 +23,7 @@ void morte(){
     system("cls");
     system("color 0f");
     printf("\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/");
-    printf("\n\n\t\t\t   A Gousma aventureira sucumbe aos seus ferimentos e morre.\n\n\t\t\t         A raça das Gousmas está fadada à extinção...");
+    printf("\n\n\t\t\t   A Gousma aventureira sucumbe aos seus ferimentos e morre.\n\n\t\t\t         A raÃ§a das Gousmas estÃ¡ fadada Ã  extinÃ§Ã£o...");
     printf("\n\n\t\t\t\t                 @@@@@@@@@@@@@@\n\t\t\t\t              @@@   @@         @@@\n\t\t\t\t            @@  @@@               @@\n\t\t\t\t          @@ @@   @                @@@\n\t\t\t\t         @@      @                 @@@@\n\t\t\t\t        @@                         @@@@@\n\t\t\t\t       @@   @@                     @@@@@\n\t\t\t\t       @@    @     @@@   @@@@     @@@@@@@\n\t\t\t\t       @@    @         @          @@@@@@@\n\t\t\t\t        @@  @  @@@@         @@@@@  @@@@@\n\t\t\t\t         @ @ @@@@@@@@@    @@@@@@@@@  @@@\n\t\t\t\t         @@ @@@@@@@@@@    @@@@@@@@@@ @@\n\t\t\t\t         @@ @@@@@@@@@@  @  @@@@@@@@  @@\n\t\t\t\t         @   @@@@@@@@  @@@  @@@@@@  @ @@\n\t\t\t\t         @@           @@@@@      @@@  @\n\t\t\t\t          @@         @@@@@@  @@@    @@\n\t\t\t\t           @@@@@@@   @@@@@@  @@@@@@@\n\t\t\t\t                @             @@\n\t\t\t\t                @@@   @@@@@@ @@@\n\t\t\t\t                   @@@@  @ @@");
     printf("\n\n\t\t\t\t\t  -= Pressione qualquer tecla =-");
     printf("\n\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/\n");
@@ -119,7 +119,7 @@ int acao(int interagir,char cw/*local acima do jogador*/,char cs/*local abaixo d
             break;
         }
 
-        //Caso um tecla não leve a uma ação
+        //Caso um tecla nÃ£o leve a uma aÃ§Ã£o
         if(tecla_invalida == 1){
             escolhendo = 1;
         }
@@ -133,11 +133,11 @@ void nivel3(){
     system("cls");
     system("color 4f");
     printf("\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/");
-    printf("\n\n\t\t\t\t\t\t -= NÍVEL 3! =-\n\n\t\tAo adentrar as profundezas das masmorras, a Gousma aventureira consegue sentir uma\n\t   aura mágica envolvendo as paredes de magma. O calor se torna insuportável, mas a\n\t   Gousma não pode desistir agora. Ela está muito perto de achar a poção mágica e\n\t   salvar a sua raça!\n\n\t\tAo chegar no núcleo da masmorra, ela consegue ver uma última entrada para, talvez\n\t   o objetivo da sua aventura, mas uma criatura maléfica bloqueia o seu caminho...");   
+    printf("\n\n\t\t\t\t\t\t -= NÃVEL 3! =-\n\n\t\tAo adentrar as profundezas das masmorras, a Gousma aventureira consegue sentir uma\n\t   aura mÃ¡gica envolvendo as paredes de magma. O calor se torna insuportÃ¡vel, mas a\n\t   Gousma nÃ£o pode desistir agora. Ela estÃ¡ muito perto de achar a poÃ§Ã£o mÃ¡gica e\n\t   salvar a sua raÃ§a!\n\n\t\tAo chegar no nÃºcleo da masmorra, ela consegue ver uma Ãºltima entrada para, talvez\n\t   o objetivo da sua aventura, mas uma criatura malÃ©fica bloqueia o seu caminho...");   
     printf("\n\n\n\t        V -> -> &\t\t\t\t\t& > ## > |  > ## > &\n\n\t\t\t\t\t\t\t-= Usar um teletransportador o leva =-\n\t     -= Cuidado!! =-\t\t\t    -= para outro em um lugar diferente do mapa =-\n\n\n\n\t\t\t\t  > Pressione qualquer tecla para continuar <\n\n");
     printf("\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/\n");
     getch();
-    int vida = 3;//caso chegue a 0, o jogo acaba e retorna o título
+    int vida = 3;//caso chegue a 0, o jogo acaba e retorna o tÃ­tulo
     int terminar = 0;//caso seja 1, o jogo termina
 
     while(terminar == 0){
@@ -147,7 +147,7 @@ void nivel3(){
         int posx[numero_de_inimigos][2];
         int posV[2], boolposV = 0, posVseq[2][2];//posicao do inimigo nvl2
         int porta = 0;//valor da porta (0 - fechada, 1- aberta)
-        int botao = 0;//valor do botão (0 - inativo, 1 - ativo)
+        int botao = 0;//valor do botÃ£o (0 - inativo, 1 - ativo)
         int interagir = 0;//valor que decide quando o jogador pode apertar i para interagir
         int jogando = 1;//valor para o loop do jogo (1 - jogando, 0 - saiu do jogo)
         int area = 40;
@@ -215,7 +215,7 @@ void nivel3(){
 
         while(jogando == 1){
 
-            //Layout do Nível
+            //Layout do NÃ­vel
             system("cls");
             printf("\t         >------<---/\\--->------<");
             for(i = area + 1; i >= 0; i--){
@@ -280,10 +280,10 @@ void nivel3(){
             //TPs
             linha[37][4] = '>';
             linha[13][13] = '>';
-            //Botão
-            if(botao == 1){//botão inativo
+            //BotÃ£o
+            if(botao == 1){//botÃ£o inativo
                 linha[23][21] = ' ';
-            }else{//botão ativo
+            }else{//botÃ£o ativo
                 linha[23][21] = 'O';
             }
 
@@ -340,7 +340,7 @@ void nivel3(){
 
                     system("cls");
                     printf("\n\n\t            >------<---/\\--->------<");
-                    printf("\n\n\t-= Você encontrou a chave! Uma porta se abriu! =-");
+                    printf("\n\n\t-= VocÃª encontrou a chave! Uma porta se abriu! =-");
                     printf("\n\n\t            >------<---\\/--->------<");
                     printf("\n\n\t         -= Pressione qualquer tecla =-");
                     getch();
@@ -359,7 +359,7 @@ void nivel3(){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t-= A porta está trancada! Talvez uma chave possa abri-la... =-");
+                    printf("\n\n\t-= A porta estÃ¡ trancada! Talvez uma chave possa abri-la... =-");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
@@ -373,8 +373,8 @@ void nivel3(){
 
                     system("cls");
                     printf("\n\n\t                >------<---/\\--->------<");
-                    printf("\n\n\t-= Você passa pela porta e continua a sua jornada... =-");
-                    printf("  \n\t                   NÍVEL 3 COMPLETO!!");
+                    printf("\n\n\t-= VocÃª passa pela porta e continua a sua jornada... =-");
+                    printf("  \n\t                   NÃVEL 3 COMPLETO!!");
                     printf("\n\n\t                >------<---\\/--->------<");
                     printf("\n\n\t             -= Pressione qualquer tecla =-");
                     getch();
@@ -399,20 +399,20 @@ void nivel3(){
                 }
                 interagir = 1;
 
-            }else if(coord == 'O'){//Botão
+            }else if(coord == 'O'){//BotÃ£o
 
                 if(interagir == 2){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t  -= Você aperta o botão e ouve um mecanismo se mexendo... =-");
-                    printf("  \n\t-= Também é possível sentir o perigo iminete se aproximando. =-");
+                    printf("\n\n\t  -= VocÃª aperta o botÃ£o e ouve um mecanismo se mexendo... =-");
+                    printf("  \n\t-= TambÃ©m Ã© possÃ­vel sentir o perigo iminete se aproximando. =-");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
                     botao = 1;
                     linha[23][21] = ' ';
-                    //todos os espinhos retirados pelo botão
+                    //todos os espinhos retirados pelo botÃ£o
                     //centro (com V)
                     linha[23][22] = ' ';
                     linha[22][23] = ' ';
@@ -423,7 +423,7 @@ void nivel3(){
                     linha[37][31] = ' ';
                     linha[37][32] = ' ';
                     linha[37][33] = ' ';
-                    //V é ativado
+                    //V Ã© ativado
                     boolposV = 1;
                 }
                 interagir = 1;
@@ -437,7 +437,7 @@ void nivel3(){
                     vida--;
                     printf("\n\n\t                         >------<---/\\--->------<");
                     printf("\n\n\t-= Um inimigo feroz te surpreende e ataca, ferindo a Gousma aventureira! =-");
-                    printf("  \n\t              -= Você perde uma vida!! Vidas restantes: %i! =-",vida);
+                    printf("  \n\t              -= VocÃª perde uma vida!! Vidas restantes: %i! =-",vida);
                     printf("\n\n\t                         >------<---\\/--->------<");
                     printf("\n\n\t                      -= Pressione qualquer tecla =-");
                     getch();
@@ -446,8 +446,8 @@ void nivel3(){
                     system("cls");
                     vida--;
                     printf("\n\n\t                          >------<---/\\--->------<");
-                    printf("\n\n\t-= Um inimigo implacável te agarra e ataca, ferindo a Gousma aventureira! =-");
-                    printf("  \n\t               -= Você perde uma vida!! Vidas restantes: %i! =-",vida);
+                    printf("\n\n\t-= Um inimigo implacÃ¡vel te agarra e ataca, ferindo a Gousma aventureira! =-");
+                    printf("  \n\t               -= VocÃª perde uma vida!! Vidas restantes: %i! =-",vida);
                     printf("\n\n\t                          >------<---\\/--->------<");
                     printf("\n\n\t                       -= Pressione qualquer tecla =-");
                     getch();
@@ -457,7 +457,7 @@ void nivel3(){
                     vida--;
                     printf("\n\n\t                         >------<---/\\--->------<");
                     printf("\n\n\t-= A Gousma aventureira cai em uma armadilha espinhosa e afiada e se fere! =-");
-                    printf("  \n\t              -= Você perde uma vida!! Vidas restantes: %i! =-",vida);
+                    printf("  \n\t              -= VocÃª perde uma vida!! Vidas restantes: %i! =-",vida);
                     printf("\n\n\t                         >------<---\\/--->------<");
                     printf("\n\n\t                      -= Pressione qualquer tecla =-");
                     getch();
@@ -467,7 +467,7 @@ void nivel3(){
             
             //Gera jogador
             linha[pos[1]][pos[0]] = '&';
-            //Jogador é gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
+            //Jogador Ã© gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
         }
 
         //caso a vida chegue a 0
@@ -487,11 +487,11 @@ void nivel2(){
     system("color 80");
     system("cls");
     printf("\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/");
-    printf("\n\n\t\t\t\t\t\t -= NÍVEL 2! =-\n\n\t\tEnquanto continuava a sua jornada, a Gousma aventureira percebeu seus arredores se\n\t   tornando acinzentados e rachados - ela chegous em outra parte das masmorras. A Gousma\n\t   sentia falta do verde aconchegante do nível superior quando ouviu um som tenebroso vindo\n\t   das salas adiantes.\n\n\t\tA Gousma não estava sozinha.");   
+    printf("\n\n\t\t\t\t\t\t -= NÃVEL 2! =-\n\n\t\tEnquanto continuava a sua jornada, a Gousma aventureira percebeu seus arredores se\n\t   tornando acinzentados e rachados - ela chegous em outra parte das masmorras. A Gousma\n\t   sentia falta do verde aconchegante do nÃ­vel superior quando ouviu um som tenebroso vindo\n\t   das salas adiantes.\n\n\t\tA Gousma nÃ£o estava sozinha.");   
     printf("\n\n\n\n\t\t\t\t  > Pressione qualquer tecla para continuar <\n\n");
     printf("\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/\n");
     getch();
-    int vida = 3;//caso chegue a 0, o jogo acaba e retorna o tÃ­tulo
+    int vida = 3;//caso chegue a 0, o jogo acaba e retorna o tÃƒÂ­tulo
     int terminar = 0;//caso seja 1, o jogo termina
 
     while(terminar == 0){
@@ -500,7 +500,7 @@ void nivel2(){
         int numero_de_inimigos = 6;//auto explicativo
         int posx[numero_de_inimigos][2];
         int porta = 0;//valor da porta (0 - fechada, 1- aberta)
-        int botao = 0;//valor do botão (0 - inativo, 1 - ativo)
+        int botao = 0;//valor do botÃ£o (0 - inativo, 1 - ativo)
         int interagir = 0;//valor que decide quando o jogador pode apertar i para interagir
         int jogando = 1;//valor para o loop do jogo (1 - jogando, 0 - saiu do jogo)
 
@@ -559,7 +559,7 @@ void nivel2(){
 
         while(jogando == 1){
 
-            //Layout do Ní­vel
+            //Layout do NÃ­Â­vel
             system("cls");
             printf("\n\t       >------<---/\\--->------<\n");
             for(i = area + 1; i >= 0; i--){
@@ -617,10 +617,10 @@ void nivel2(){
                 //Porta -=-=-=-=-=-=--=-=-=-=-=-=-
                 linha[2][6] = 'D';
             }
-            //Botão
-            if(botao == 1){//botão inativo
+            //BotÃ£o
+            if(botao == 1){//botÃ£o inativo
                 linha[14][6] = ' ';
-            }else{//botão ativo
+            }else{//botÃ£o ativo
                 linha[14][6] = 'O';
             }
 
@@ -667,7 +667,7 @@ void nivel2(){
 
                     system("cls");
                     printf("\n\n\t            >------<---/\\--->------<");
-                    printf("\n\n\t-= Você encontrou a chave! Uma porta se abriu! =-");
+                    printf("\n\n\t-= VocÃª encontrou a chave! Uma porta se abriu! =-");
                     printf("\n\n\t            >------<---\\/--->------<");
                     printf("\n\n\t         -= Pressione qualquer tecla =-");
                     getch();
@@ -686,7 +686,7 @@ void nivel2(){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t-= A porta está trancada! Talvez uma chave possa abri-la... =-");
+                    printf("\n\n\t-= A porta estÃ¡ trancada! Talvez uma chave possa abri-la... =-");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
@@ -700,8 +700,8 @@ void nivel2(){
 
                     system("cls");
                     printf("\n\n\t                >------<---/\\--->------<");
-                    printf("\n\n\t-= Você passa pela porta e continua a sua jornada... =-");
-                    printf("  \n\t                   NÍVEL 2 COMPLETO!!");
+                    printf("\n\n\t-= VocÃª passa pela porta e continua a sua jornada... =-");
+                    printf("  \n\t                   NÃVEL 2 COMPLETO!!");
                     printf("\n\n\t                >------<---\\/--->------<");
                     printf("\n\n\t             -= Pressione qualquer tecla =-");
                     getch();
@@ -711,19 +711,19 @@ void nivel2(){
                 }
                 interagir = 1;
 
-            }else if(coord == 'O'){//Botão
+            }else if(coord == 'O'){//BotÃ£o
 
                 if(interagir == 2){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t  -= Você aperta o botão e ouve um mecanismo se mexendo... =-");
+                    printf("\n\n\t  -= VocÃª aperta o botÃ£o e ouve um mecanismo se mexendo... =-");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
                     botao = 1;
                     linha[14][6] = ' ';
-                    //todos os espinhos retirados pelo botão
+                    //todos os espinhos retirados pelo botÃ£o
                     //porta para @
                     linha[10][2] = ' ';
                     linha[10][3] = ' ';
@@ -739,7 +739,7 @@ void nivel2(){
                     vida--;
                     printf("\n\n\t                         >------<---/\\--->------<");
                     printf("\n\n\t-= Um inimigo feroz te surpreende e ataca, ferindo a Gousma aventureira! =-");
-                    printf("  \n\t              -= Você perde uma vida!! Vidas restantes: %i! =-",vida);
+                    printf("  \n\t              -= VocÃª perde uma vida!! Vidas restantes: %i! =-",vida);
                     printf("\n\n\t                         >------<---\\/--->------<");
                     printf("\n\n\t                      -= Pressione qualquer tecla =-");
                     getch();
@@ -749,7 +749,7 @@ void nivel2(){
                     vida--;
                     printf("\n\n\t                         >------<---/\\--->------<");
                     printf("\n\n\t-= A Gousma aventureira cai em uma armadilha espinhosa e afiada e se fere! =-");
-                    printf("  \n\t              -= Você perde uma vida!! Vidas restantes: %i! =-",vida);
+                    printf("  \n\t              -= VocÃª perde uma vida!! Vidas restantes: %i! =-",vida);
                     printf("\n\n\t                         >------<---\\/--->------<");
                     printf("\n\n\t                      -= Pressione qualquer tecla =-");
                     getch();
@@ -759,7 +759,7 @@ void nivel2(){
             
             //Gera jogador
             linha[pos[1]][pos[0]] = '&';
-            //Jogador é gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
+            //Jogador Ã© gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
         }
 
         //caso a vida chegue a 0
@@ -779,11 +779,11 @@ void nivel1(){
     system("color 2f");
     system("cls");
     printf("\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/");
-    printf("\n\n\t\t\t\t\t\t -= NÍVEL 1! =-\n\n\t\tA Gousma aventureira entra nas masmorras, se deparando com paredes estreitas e\n\t   cobertas por vinhas e musgo. Ela pode senitr os resquícios de magia pairando no ar,\n\t   o que leva a crer que a Gousma está indo na direção certa.");   
+    printf("\n\n\t\t\t\t\t\t -= NÃVEL 1! =-\n\n\t\tA Gousma aventureira entra nas masmorras, se deparando com paredes estreitas e\n\t   cobertas por vinhas e musgo. Ela pode senitr os resquÃ­cios de magia pairando no ar,\n\t   o que leva a crer que a Gousma estÃ¡ indo na direÃ§Ã£o certa.");   
     printf("\n\n\n\n\t\t\t\t  > Pressione qualquer tecla para continuar <\n\n");
     printf("\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/\n");
     getch();
-    int vida = 3;//caso chegue a 0, o jogo acaba e retorna o título
+    int vida = 3;//caso chegue a 0, o jogo acaba e retorna o tÃ­tulo
     int terminar = 0;//caso seja 1, o jogo termina
 
     while(terminar == 0){
@@ -815,7 +815,7 @@ void nivel1(){
 
         while(jogando == 1){
 
-            //Layout do Nível
+            //Layout do NÃ­vel
             system("cls");
             printf("\n\t          >------<---/\\--->------<\n");
             for(i = area + 1; i >= 0; i--){
@@ -883,7 +883,7 @@ void nivel1(){
 
                     system("cls");
                     printf("\n\n\t            >------<---/\\--->------<");
-                    printf("\n\n\t-= Você encontrou a chave! Uma porta se abriu! =-");
+                    printf("\n\n\t-= VocÃª encontrou a chave! Uma porta se abriu! =-");
                     printf("\n\n\t            >------<---\\/--->------<");
                     printf("\n\n\t         -= Pressione qualquer tecla =-");
                     getch();
@@ -902,7 +902,7 @@ void nivel1(){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t-= A porta está trancada! Talvez uma chave possa abri-la... =-");
+                    printf("\n\n\t-= A porta estÃ¡ trancada! Talvez uma chave possa abri-la... =-");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
@@ -916,8 +916,8 @@ void nivel1(){
 
                     system("cls");
                     printf("\n\n\t                >------<---/\\--->------<");
-                    printf("\n\n\t-= Você passa pela porta e continua a sua jornada... =-");
-                    printf("  \n\t                   NÍVEL 1 COMPLETO!!");
+                    printf("\n\n\t-= VocÃª passa pela porta e continua a sua jornada... =-");
+                    printf("  \n\t                   NÃVEL 1 COMPLETO!!");
                     printf("\n\n\t                >------<---\\/--->------<");
                     printf("\n\n\t             -= Pressione qualquer tecla =-");
                     getch();
@@ -932,7 +932,7 @@ void nivel1(){
             
             //Gera jogador
             linha[pos[1]][pos[0]] = '&';
-            //Jogador é gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
+            //Jogador Ã© gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
         }
 
         //caso a vida chegue a 0
@@ -974,7 +974,7 @@ void vila(){
 
     while(jogando == 1){
 
-        //Layout do Nível
+        //Layout do NÃ­vel
         system("cls");
         printf("\n\t          >------<---/\\--->------<\n");
         for(i = area + 1; i >= 0; i--){
@@ -1049,8 +1049,8 @@ void vila(){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t-= Você encontra uma Gousma local, que te cumprimenta e diz: =-");
-                    printf("\n\n\t\"  Olá, Gousma aventureira!! Você deve ter vindo de muito longe\n\tpara acabar aqui... Há poucos de nós nessa vila, mas sinta-\n\t-se à vontade para falar com qualquer um.\"\n\n\tPara interagir com os aldeões (P), ande até ficar sobre\n\teles e aperte (i)!");
+                    printf("\n\n\t-= VocÃª encontra uma Gousma local, que te cumprimenta e diz: =-");
+                    printf("\n\n\t\"  OlÃ¡, Gousma aventureira!! VocÃª deve ter vindo de muito longe\n\tpara acabar aqui... HÃ¡ poucos de nÃ³s nessa vila, mas sinta-\n\t-se Ã  vontade para falar com qualquer um.\"\n\n\tPara interagir com os aldeÃµes (P), ande atÃ© ficar sobre\n\teles e aperte (i)!");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
@@ -1060,8 +1060,8 @@ void vila(){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t-= Você encontra uma Gousma local, que te cumprimenta e diz: =-");
-                    printf("\n\n\t\"  Atrás de mim há uma porta, uma de várias que você vai\n\tencontrar adiante. Elas ficam fechadas (D) até que você ache\n\tuma chave (@) para abri-las (=) e continuar a sua jornada.\"");
+                    printf("\n\n\t-= VocÃª encontra uma Gousma local, que te cumprimenta e diz: =-");
+                    printf("\n\n\t\"  AtrÃ¡s de mim hÃ¡ uma porta, uma de vÃ¡rias que vocÃª vai\n\tencontrar adiante. Elas ficam fechadas (D) atÃ© que vocÃª ache\n\tuma chave (@) para abri-las (=) e continuar a sua jornada.\"");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
@@ -1071,8 +1071,8 @@ void vila(){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t-= Você encontra uma Gousma local, que te cumprimenta e diz: =-");
-                    printf("\n\n\t\"  Durante a sua jornada, você acabará encontrando perigos e\n\tarmadilhas, como espinhos (#), inimigos básicos (X) e inimigos\n\tinteligentes (V). Tome cuidado, Gousma aventureira!\"");
+                    printf("\n\n\t-= VocÃª encontra uma Gousma local, que te cumprimenta e diz: =-");
+                    printf("\n\n\t\"  Durante a sua jornada, vocÃª acabarÃ¡ encontrando perigos e\n\tarmadilhas, como espinhos (#), inimigos bÃ¡sicos (X) e inimigos\n\tinteligentes (V). Tome cuidado, Gousma aventureira!\"");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
@@ -1082,8 +1082,8 @@ void vila(){
 
                     system("cls");
                     printf("\n\n\t                   >------<---/\\--->------<");
-                    printf("\n\n\t-= Você encontra uma Gousma local, que te cumprimenta e diz: =-");
-                    printf("\n\n\t\"  Há alguns mecanismos que podem te ajudar em sua missão...\n\tAcredito que existam botões (O) e talvez teletransportadores\n\tmágicos (>)! Boa sorte, Gousma aventureira!\"");
+                    printf("\n\n\t-= VocÃª encontra uma Gousma local, que te cumprimenta e diz: =-");
+                    printf("\n\n\t\"  HÃ¡ alguns mecanismos que podem te ajudar em sua missÃ£o...\n\tAcredito que existam botÃµes (O) e talvez teletransportadores\n\tmÃ¡gicos (>)! Boa sorte, Gousma aventureira!\"");
                     printf("\n\n\t                   >------<---\\/--->------<");
                     printf("\n\n\t                -= Pressione qualquer tecla =-");
                     getch();
@@ -1098,7 +1098,7 @@ void vila(){
 
                 system("cls");
                 printf("\n\n\t            >------<---/\\--->------<");
-                printf("\n\n\t-= Você encontrou a chave! Uma porta se abriu! =-");
+                printf("\n\n\t-= VocÃª encontrou a chave! Uma porta se abriu! =-");
                 printf("\n\n\t            >------<---\\/--->------<");
                 printf("\n\n\t         -= Pressione qualquer tecla =-");
                 getch();
@@ -1117,7 +1117,7 @@ void vila(){
 
                 system("cls");
                 printf("\n\n\t                   >------<---/\\--->------<");
-                printf("\n\n\t-= A porta está trancada! Talvez uma chave possa abri-la... =-");
+                printf("\n\n\t-= A porta estÃ¡ trancada! Talvez uma chave possa abri-la... =-");
                 printf("\n\n\t                   >------<---\\/--->------<");
                 printf("\n\n\t                -= Pressione qualquer tecla =-");
                 getch();
@@ -1131,13 +1131,13 @@ void vila(){
 
                 system("cls");
                 printf("\n\n\t                >------<---/\\--->------<");
-                printf("\n\n\t-= Você passa pela porta e continua a sua jornada... =-");
+                printf("\n\n\t-= VocÃª passa pela porta e continua a sua jornada... =-");
                 printf("  \n\t                   TUTORIAL COMPLETO!!");
                 printf("\n\n\t                >------<---\\/--->------<");
                 printf("\n\n\t             -= Pressione qualquer tecla =-");
                 getch();
                 jogando = 0;
-                //Colocar a função do nível 1 aqui!
+                //Colocar a funÃ§Ã£o do nÃ­vel 1 aqui!
                 nivel1();
 
             }
@@ -1147,7 +1147,7 @@ void vila(){
         
         //Gera jogador
         linha[pos[1]][pos[0]] = '&';
-        //Jogador é gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
+        //Jogador Ã© gerado depois dos outros objetos para que "&" tenha prioridade sobre os outros elementos, como "P" ou "@"
     }
 }
 
@@ -1162,7 +1162,7 @@ void menu(){
 
         system("color 1f");
         system("cls");
-        printf("\n\t----------------------------------------\n\t\tSelecione uma opção!\n\n\t- Jogar -    %c\n\n\t- Créditos - %c\n\n\t- Sair -     %c\n\t----------------------------------------\n\tw -> Subir\n\t\t\t\ti -> Interagir\n\ts -> Descer\n",opc1,opc2,opc3);
+        printf("\n\t----------------------------------------\n\t\tSelecione uma opÃ§Ã£o!\n\n\t- Jogar -    %c\n\n\t- CrÃ©ditos - %c\n\n\t- Sair -     %c\n\t----------------------------------------\n\tw -> Subir\n\t\t\t\ti -> Interagir\n\ts -> Descer\n",opc1,opc2,opc3);
 
         escolhendo = 1;
         tecla = getch();
@@ -1210,20 +1210,20 @@ void menu(){
 
                         char comecar;
                         printf("\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/");
-                        printf("\n\n\t\tHá muitos séculos, houve uma guerra sangrenta que quase aniquilou as Gousmas, raça\n\t   dominante das Terras Míticas. Com o seu fim, uma doença calamitosa se espalhou e ameaçou\n\t   dizimar o restante das Gousmas que restaram. Com os esforços dos grandes magos, foi\n\t   criada uma poção mágica que poderia curar qualquer sintoma. Logo, as Gousmas se recuperaram\n\t   e continuaram a prosperar, enqunto os magos, certos de que a poção poderia levar a raça\n\t   à guerra novamente, a esconderam em uma masmorra já quase esquecida dentro das florestas\n\t   nevoadas.\n\n\t\tMuito tempo depois, a doença, que já era inexistente há eras, voltou a assombrar as\n\t   Gousmas e, em um ato valente, uma Gousma corajosa decidiu partir em busca da poção\n\t   milagrosa, que poderia salvar a sua espécie novamente...");
-                        printf("\n\n\t\t    w\n\t\t    ^\n\t\ta < & > d\t\t\t\t   > Pressione (i) para Interagir <\n\t\t    v\n\t\t    s\t\t\t\t\t-= Esta mensagem aparecerá no canto =-\n\t     -= Movimento =-\t\t\t    -= inferior quando puder interagir com algo =-\n\n\n\n\t\t\t\t  > Pressione qualquer tecla para continuar <\n\n");
+                        printf("\n\n\t\tHÃ¡ muitos sÃ©culos, houve uma guerra sangrenta que quase aniquilou as Gousmas, raÃ§a\n\t   dominante das Terras MÃ­ticas. Com o seu fim, uma doenÃ§a calamitosa se espalhou e ameaÃ§ou\n\t   dizimar o restante das Gousmas que restaram. Com os esforÃ§os dos grandes magos, foi\n\t   criada uma poÃ§Ã£o mÃ¡gica que poderia curar qualquer sintoma. Logo, as Gousmas se recuperaram\n\t   e continuaram a prosperar, enqunto os magos, certos de que a poÃ§Ã£o poderia levar a raÃ§a\n\t   Ã  guerra novamente, a esconderam em uma masmorra jÃ¡ quase esquecida dentro das florestas\n\t   nevoadas.\n\n\t\tMuito tempo depois, a doenÃ§a, que jÃ¡ era inexistente hÃ¡ eras, voltou a assombrar as\n\t   Gousmas e, em um ato valente, uma Gousma corajosa decidiu partir em busca da poÃ§Ã£o\n\t   milagrosa, que poderia salvar a sua espÃ©cie novamente...");
+                        printf("\n\n\t\t    w\n\t\t    ^\n\t\ta < & > d\t\t\t\t   > Pressione (i) para Interagir <\n\t\t    v\n\t\t    s\t\t\t\t\t-= Esta mensagem aparecerÃ¡ no canto =-\n\t     -= Movimento =-\t\t\t    -= inferior quando puder interagir com algo =-\n\n\n\n\t\t\t\t  > Pressione qualquer tecla para continuar <\n\n");
                         printf("\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/\n");
                         comecar = getch();
                         vila();
                     }else if(opcao == 2){
                         system("cls");
                         printf("\n\t<>-------------------------------->-<--------------------------------<>\n\n\t         @@@@   @@   @@ @@   @@  @@@@@  @@@@@@  @@@@   @@   @           \n\t        @@  @@  @   @@  @@@  @  @@   @@ @@     @@   @@ @@@  @@          \n\t       @@   @@ @@   @@ @@ @  @  @@      @@@@@@ @@   @@  @ @@ @@         \n\t       @@   @@ @@   @@ @@ @@ @  @@ @@@@ @@     @@    @@ @@ @@@@         \n\t      @@   @@  @   @@  @@  @@@  @@   @@  @      @@   @@ @@   @@@        \n\t      @@@@@    @@@@@   @@   @@   @@@@@@  @@@@@@  @@@@@   @@   @@        \n                                                                        \n\t     @@@@@@  @@@@@@@     @@    @@  @@@  @@ @@@     @@@@@@@ @@@@@@       \n\t    @@   @@  @@   @@    @@@@   @@  @@@  @@  @@     @@      @@   @@@     \n\t   @@    @@ @@@   @@    @ @@   @@  @@@  @@  @@      @@      @@   @@     \n\t  @@        @@   @@    @@ @@   @@  @ @@ @@  @@      @@@@@@  @@   @@@    \n\t  @@        @@@@@@    @@   @@   @@@@ @@ @@  @@      @@       @@@@@@     \n\t @@    @@@ @@   @@   @@@@@@@@   @@@@  @@@   @@@      @@      @@   @@    \n\t @@    @@  @@   @@   @@    @@   @@@   @@@    @@      @@       @@   @@   \n\t @@@@@@@  @@@   @@@ @@     @@@  @@@   @@@    @@@@@@@ @@@@@@@@ @@@   @@\n\n\t<>-------------------------------->-<--------------------------------<>");
-                        printf("\n\n\t\t\t\t      Criado por:\n\n\tMatheus Talarico - Design / Terceiro Nível\n\n\tRobson Rodrigues - ");
+                        printf("\n\n\t\t\t\t      Criado por:\n\n\tMatheus Talarico - Design / Terceiro NÃ­vel\n\n\tRobson Rodrigues - Primeiro NÃ­vel\n\n\tGuilherme de Souza - Segundo NÃ­vel");
                         printf("\n\n\t\t\t   -= Pressione qualquer tecla... =-\n\n\n");
                         getch();
                     }else{
                         system("cls");
-                        printf("\n\t------------------------------------------\n\tVocê tem certeza de que quer sair do jogo?\n\t------------------------------------------\n\ti -> Confirmar\n\n\tQualquer outra tecla -> Voltar");
+                        printf("\n\t------------------------------------------\n\tVocÃª tem certeza de que quer sair do jogo?\n\t------------------------------------------\n\ti -> Confirmar\n\n\tQualquer outra tecla -> Voltar");
                         sair = getch();
                         if(sair == 'i'){
                             system("exit");
@@ -1233,7 +1233,7 @@ void menu(){
                     escolhendo = 0;
                 break;
 
-                //tecla inválida
+                //tecla invÃ¡lida
                 default:
                     tecla = getch();
                 break;
