@@ -30,7 +30,9 @@ O jogo conta com um tutorial e 3 níveis para concluir. Será que você é capaz
 
 </div>
 
-asassasas
+Após baixar o compactado, extraia o arquivo ***main.exe***. O programa, por ser rudimentar, já estará pronto para ser usado. No entanto, *Softwares Antivírus* podem detectar o programa como um arquivo malicioso e, nesse caso, é possível desativá-los para prosseguir com a instalação.
+
+> **Nota**: Não é necessário baixar qualquer outro arquivo.
 
 <div align="center">
 
