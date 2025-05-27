@@ -10,7 +10,7 @@ void vitoria(){
     system("cls");
     system("color f0");
     printf("\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/");
-    printf("\n\n\t\t Após muitos desafios e obstáculos, a Gousma aventureira finalmente chega à sala\n\t\t  da poção mágica. Mas, quando em que ela pega o frasco milagroso, um terremoto\n\t\t     sacude a masmorra inteira. Correndo para não ser esmagada, ela consegue\n\t\t\t\t\tescapar e volta para o seu reino.\n\n\t\t  Com a cura em mão, a raça das Gousmas lentamente se recupera da doença mortal\n\t\t e vive para contar a história da Gousma aventureira para as futuras gerações...");
+    printf("\n\n\t\t Após muitos desafios e obstáculos, a Gousma aventureira finalmente chega à sala\n\t\t  da poção mágica. E no momento em que ela pega o frasco milagroso um terremoto\n\t\t     sacude a masmorra inteira. Correndo para não ser esmagada, ela consegue\n\t\t\t\t\tescapar e volta para o seu reino.\n\n\t\t  Com a cura em mão, a raça das Gousmas lentamente se recupera da doença mortal\n\t\t e vive para contar a história da Gousma aventureira para as futuras gerações...");
     printf("\n\n\t\t\t\t         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\t\t\t\t       @@@  @@@@@@@@@@@@@@@@@@@@@@@@  @@@\n\t\t\t\t       @@    @@@@@@@@@@@@@@@@@@@@@@    @@\n\t\t\t\t       @@    @@@@@@@@@@@@@@@@@@@@@@    @@\n\t\t\t\t       @@@    @@@@@@@@@@@@@@@@@@@@    @@@\n\t\t\t\t         @@@@ @@@@@@@@@@@@@@@@@@@@ @@@@\n\t\t\t\t           @@@@@@@@@@@@@@@@@@@@@@@@@@\n\t\t\t\t              @@@@@@@@@@@@@@@@@@@@\n\t\t\t\t                @@@@@@@@@@@@@@@@\n\t\t\t\t                  @@@@@@@@@@@@@\n\t\t\t\t                   @@@@@@@@@@\n\t\t\t\t                     @@@@@@\n\t\t\t\t                       @@\n\t\t\t\t                       @@\n\t\t\t\t                       @@\n\t\t\t\t                      @@@@\n\t\t\t\t                      @@@@\n\t\t\t\t                    @@@@@@@@\n\t\t\t\t                 @@@@@@@@@@@@@@\n\t\t\t\t               @@@@@@@@@@@@@@@@@@\n\t\t\t\t               @@@@@@@@@@@@@@@@@@");
     printf("\n\n\t\t\t\t\t -= Pressione qualquer tecla =-");
     printf("\n\n\t                                               /\\\n\t /____________________/_/___________________/_/  \\_\\__________________\\_\\_____________________\\\n\t \\                    \\ \\                   \\ \\  / /                  / /                     /\n\t                                               \\/\n");
@@ -33,8 +33,8 @@ void morte(){
 
 int movX(int nivel, int x, int posx, int posy, char cw, char ca, char cs, char cd){
 
-    int inimigo[8][4] = {{24,17,0,0},{24,17,0,0},{7,5,9,5},{7,5,17,13},{11,9,9,5},{11,9,17,13},{15,13,17,13},{20,18,8,4}};
-    if(nivel == 2){
+    int inimigo[8][4] = {{24,17,0,0},{24,17,0,0},{7,5,9,5},{7,5,17,13},{11,9,9,5},{11,9,17,13},{15,13,17,13},{20,18,8,4}};//area que cada X deve ficar
+    if(nivel == 2){//caso o nivel seja 2, pula as duas primeiras areas para detectar as outras 6 areas
         x += 2;
     }
     int escolhendo = 1, retorno;
@@ -626,8 +626,10 @@ void nivel2(){
 
             //movimento de Xs
             int x;
+            int esperar;
 
-            if(interagir != 2){
+            if(interagir != 2 && esperar == 0){
+                esperar = 1;
                 for(x = 0; x < numero_de_inimigos; x++){
 
                     int cwx = linha[posx[x][1] + 1][posx[x][0]];//detecta o lugar acima de X
@@ -655,7 +657,7 @@ void nivel2(){
                     }
                     linha[posx[x][1]][posx[x][0]] = 'X';//reposiciona X
                 }
-            }
+            }else esperar = 0;
 
             //detecta o lugar do jogador
             char coord = linha[pos[1]][pos[0]];
